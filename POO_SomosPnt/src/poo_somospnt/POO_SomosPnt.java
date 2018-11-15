@@ -28,6 +28,7 @@ public class POO_SomosPnt {
         fruta1.setPrecio(64);
         fruta1.setUnidadDeVenta("Kilo");
 
+        
         System.out.println(gaseosa1.toString());
         System.out.println("-------------------");
         System.out.println(gaseosa2.toString());
@@ -39,11 +40,12 @@ public class POO_SomosPnt {
         
 //        System.out.println("Producto mas caro :"+ fruta1.nombre);
 //        System.out.println("Producto mas barato :"+gaseosa1.nombre);
-//        
+        System.out.println();
         System.out.println("-------------------");
 
         
         System.out.println("Test [ok]");
     }
-
+    
 }
+

@@ -52,13 +52,26 @@ public class Producto {
 
 
    
+    
+    
     public String toString()
             
     {
+        if (nombre.equals("Shampoo Sedal")) {
+             return "Nombre :"+ nombre +"///"+"Capacidad :"+ capacidad + "ml///"
+             +"Precio :"+"$" + precio  ;
+           
+            
+        }
+        if (nombre.equals("Frutilla")) {
+             return "Nombre :"+ nombre +"///" +"Precio :"+"$" + precio
+                     +"///"+ "Unidad de venta :"+ unidadDeVenta ;
+           
+            
+        }
+        
       return "Nombre :"+ nombre +"///"+"Litros :"+ litros + "///"
              +"Precio :"+"$" + precio  ;
-
+    
     }
-    
-    
 }
